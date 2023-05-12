@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;1,500&display=swap");
+
+/* INCLUDE TAILWIND  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* COMMON CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* this defines what 1 rem is */
+  font-size: 62.5%; /* 1rem = 10px,  10px*16px = 62% */
+  /* font-family: "Courier New", Courier, monospace; */
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+/* BUTTON STYLE */
+.btnn,
+.btnn:link,
+.btnn:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  position: relative;
+
+  /* For change <button> element */
+  border: none;
+  cursor: pointer;
+}
+.btnn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgb(208, 203, 203);
+}
+.btnn::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+.btnn:active,
+.btnn:focus {
+  outline: none;
+  transform: translateY(-1px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}

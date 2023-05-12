@@ -1,0 +1,112 @@
+.login_form {
+  width: 350px;
+  height: auto;
+}
+
+.form_title {
+  text-align: center;
+  padding: 25px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.btnInput {
+  margin-right: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  width: 100%;
+  transition: all 0.2 ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.btnInput {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  padding: 16px;
+}
+
+input .btnInput:focus {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+loginBtn {
+  color: #61677c;
+  font-weight: bold;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.loginBtn:hover {
+  box-shadow: -2px -2px 5px #fff, 2px 2px 2px #babecc;
+}
+
+.loginBtn:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.login-with-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  color: gray;
+}
+.social_media {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social_media .social_icons {
+  border-radius: 8px;
+  line-height: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 18px;
+}
+
+.input-checkbox {
+  display: none;
+}
+
+.label-checkbox {
+  margin: 0;
+  display: block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+}
+
+.label-checkbox::before {
+  content: "\f00c";
+  font-family: FontAwesome;
+  font-size: 13px;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+}

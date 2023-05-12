@@ -1,0 +1,8 @@
+.header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.2),
+      rgba(255, 255, 255, 0.2)
+    ),
+    url(https://i.ibb.co/k2qjC3L/foody.jpg);
+  position: sticky;
+}
